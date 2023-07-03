@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b9c3da1-22d6-42fe-825f-191886cf7c12" name="Changes" comment="Project Created">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sudoku/problemdomain/Coordinates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sudoku/problemdomain/IStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sudoku/problemdomain/SudokuGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sudoku/problemdomain/SudokuGame.java" afterDir="false" />
+    <list default="true" id="8b9c3da1-22d6-42fe-825f-191886cf7c12" name="Changes" comment="Preparing to make User Interface">
+      <change afterPath="$PROJECT_DIR$/src/main/java/sudoku/userinterface/UserInterfaceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sudoku/userinterface/IUserInterfaceContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sudoku/userinterface/IUserInterfaceContract.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +16,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
+        <option value="Enum" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -27,7 +26,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2S3J0tuBZSSCTvZtBtzpjjBSY2R" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -55,7 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1688369112255</updated>
       <workItem from="1688369113668" duration="762000" />
-      <workItem from="1688375884033" duration="1439000" />
+      <workItem from="1688375884033" duration="3953000" />
     </task>
     <task id="LOCAL-00001" summary="Project Created">
       <created>1688369786325</created>
@@ -71,7 +72,28 @@
       <option name="project" value="LOCAL" />
       <updated>1688369834074</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Problem Domain Classes and Constants done">
+      <created>1688378187864</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688378187864</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Entry point made">
+      <created>1688378823551</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688378823551</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Preparing to make User Interface">
+      <created>1688379709806</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688379709806</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,6 +101,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project Created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project Created" />
+    <MESSAGE value="Problem Domain Classes and Constants done" />
+    <MESSAGE value="Entry point made" />
+    <MESSAGE value="Preparing to make User Interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Preparing to make User Interface" />
   </component>
 </project>

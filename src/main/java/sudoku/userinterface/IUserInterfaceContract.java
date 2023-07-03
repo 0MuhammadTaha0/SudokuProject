@@ -4,7 +4,7 @@ import sudoku.problemdomain.SudokuGame;
 
 public interface IUserInterfaceContract {
     interface EventListener {
-        void onSudokuInpujt (int x, int y, int input);
+        void onSudokuInput (int x, int y, int input);
         void onDialogClick();
 
     }
