@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b9c3da1-22d6-42fe-825f-191886cf7c12" name="Changes" comment="Computation logic: Sudoku Utilities">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sudoku/buildlogic/SudokuBuildLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sudoku/computationlogic/GameGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sudoku/computationlogic/GameLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sudoku/computationlogic/SudokuSolver.java" afterDir="false" />
+    <list default="true" id="8b9c3da1-22d6-42fe-825f-191886cf7c12" name="Changes" comment="Computation logic &amp;&amp; Build Logic done.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/sudoku/persistence/LocalStorageImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sudoku/userinterface/logic/ControlLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sudoku/userinterface/logic/ControlLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sudoku/SudokuApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sudoku/SudokuApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sudoku/buildlogic/SudokuBuildLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sudoku/buildlogic/SudokuBuildLogic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +49,26 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sudoku.Main" />
+      <module name="SudokuProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sudoku.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,7 +80,7 @@
       <workItem from="1688369113668" duration="762000" />
       <workItem from="1688375884033" duration="5746000" />
       <workItem from="1688519156499" duration="8115000" />
-      <workItem from="1688782312091" duration="7252000" />
+      <workItem from="1688782312091" duration="9763000" />
     </task>
     <task id="LOCAL-00001" summary="Project Created">
       <created>1688369786325</created>
@@ -127,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688528604965</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Computation logic &amp;&amp; Build Logic done.">
+      <created>1688799590500</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1688799590500</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +167,7 @@
     <MESSAGE value="UserInterface Completed" />
     <MESSAGE value="ControlLogic creation started" />
     <MESSAGE value="Computation logic: Sudoku Utilities" />
-    <option name="LAST_COMMIT_MESSAGE" value="Computation logic: Sudoku Utilities" />
+    <MESSAGE value="Computation logic &amp;&amp; Build Logic done." />
+    <option name="LAST_COMMIT_MESSAGE" value="Computation logic &amp;&amp; Build Logic done." />
   </component>
 </project>
