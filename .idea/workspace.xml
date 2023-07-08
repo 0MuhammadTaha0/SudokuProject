@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b9c3da1-22d6-42fe-825f-191886cf7c12" name="Changes" comment="ControlLogic creation started" />
+    <list default="true" id="8b9c3da1-22d6-42fe-825f-191886cf7c12" name="Changes" comment="Computation logic: Sudoku Utilities">
+      <change afterPath="$PROJECT_DIR$/src/main/java/sudoku/buildlogic/SudokuBuildLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sudoku/computationlogic/GameGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sudoku/computationlogic/GameLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sudoku/computationlogic/SudokuSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sudoku/userinterface/logic/ControlLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sudoku/userinterface/logic/ControlLogic.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +61,8 @@
       <updated>1688369112255</updated>
       <workItem from="1688369113668" duration="762000" />
       <workItem from="1688375884033" duration="5746000" />
-      <workItem from="1688519156499" duration="6064000" />
+      <workItem from="1688519156499" duration="8115000" />
+      <workItem from="1688782312091" duration="7252000" />
     </task>
     <task id="LOCAL-00001" summary="Project Created">
       <created>1688369786325</created>
@@ -112,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688525720489</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Computation logic: Sudoku Utilities">
+      <created>1688528604965</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1688528604965</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +141,7 @@
     <MESSAGE value="UserInterface Started" />
     <MESSAGE value="UserInterface Completed" />
     <MESSAGE value="ControlLogic creation started" />
-    <option name="LAST_COMMIT_MESSAGE" value="ControlLogic creation started" />
+    <MESSAGE value="Computation logic: Sudoku Utilities" />
+    <option name="LAST_COMMIT_MESSAGE" value="Computation logic: Sudoku Utilities" />
   </component>
 </project>
