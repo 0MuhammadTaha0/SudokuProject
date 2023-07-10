@@ -11,7 +11,7 @@ import java.io.IOException;
 public class SudokuApplication extends Application {
     private IUserInterfaceContract.View uiImpl;
     @Override
-    public void start(Stage primaryStage) throws Exception {
+    public void start(Stage primaryStage) throws IOException {
         uiImpl = new UserInterfaceImpl(primaryStage);
         try {
             SudokuBuildLogic.build(uiImpl);
@@ -21,7 +21,7 @@ public class SudokuApplication extends Application {
         }
     }
     public static void main(String[] args) {
-        launch();
+        launch(args);
     }
 
 
